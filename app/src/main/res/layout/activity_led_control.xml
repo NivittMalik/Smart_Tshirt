@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    tools:context="com.example.nivitt.blinkingt.ledControl">
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="85dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b1"
+        android:layout_alignTop="@+id/b1"
+        android:layout_marginStart="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/b2"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/b1" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/b3"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/b2" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/b4"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/b3" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/b5"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/b4" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/b6"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/b5" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/b7"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/b6" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b1"
+        android:layout_alignTop="@+id/b1"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b2"
+        android:layout_alignTop="@+id/b2"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b3"
+        android:layout_alignTop="@+id/b3"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b4"
+        android:layout_alignTop="@+id/b4"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b5"
+        android:layout_alignTop="@+id/b5"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b14"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b6"
+        android:layout_alignTop="@+id/b6"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b7"
+        android:layout_alignTop="@+id/b7"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b8"
+        android:layout_alignTop="@+id/b8"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b17"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b9"
+        android:layout_below="@+id/b1"
+        android:layout_marginTop="26dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b18"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b10"
+        android:layout_alignTop="@+id/b10"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b19"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b11"
+        android:layout_alignTop="@+id/b11"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b20"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b12"
+        android:layout_alignTop="@+id/b12"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b21"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b13"
+        android:layout_alignTop="@+id/b13"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b22"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b14"
+        android:layout_alignTop="@+id/b14"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b23"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b15"
+        android:layout_alignTop="@+id/b15"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b24"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b16"
+        android:layout_alignTop="@+id/b16"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b25"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b17"
+        android:layout_below="@+id/b9"
+        android:layout_marginTop="26dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b26"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b18"
+        android:layout_alignTop="@+id/b18"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b27"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b19"
+        android:layout_alignTop="@+id/b19"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b28"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b20"
+        android:layout_alignTop="@+id/b20"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b29"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b21"
+        android:layout_alignTop="@+id/b21"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b30"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b22"
+        android:layout_alignTop="@+id/b22"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b31"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b23"
+        android:layout_alignTop="@+id/b23"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b32"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b24"
+        android:layout_alignTop="@+id/b24"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b33"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b25"
+        android:layout_below="@+id/b17"
+        android:layout_marginTop="26dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b34"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b26"
+        android:layout_alignTop="@+id/b26"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b35"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b27"
+        android:layout_alignTop="@+id/b27"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b36"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b28"
+        android:layout_alignTop="@+id/b28"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b37"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b29"
+        android:layout_alignTop="@+id/b29"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b38"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b30"
+        android:layout_alignTop="@+id/b30"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b39"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b31"
+        android:layout_alignTop="@+id/b31"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b40"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b32"
+        android:layout_alignTop="@+id/b32"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b41"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b33"
+        android:layout_below="@+id/b25"
+        android:layout_marginTop="26dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b42"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b34"
+        android:layout_alignTop="@+id/b34"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b43"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b35"
+        android:layout_alignTop="@+id/b35"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b44"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b36"
+        android:layout_alignTop="@+id/b36"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b45"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b37"
+        android:layout_alignTop="@+id/b37"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b46"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b38"
+        android:layout_alignTop="@+id/b38"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b47"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b39"
+        android:layout_alignTop="@+id/b39"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b48"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b40"
+        android:layout_alignTop="@+id/b40"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b49"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b41"
+        android:layout_below="@+id/b33"
+        android:layout_marginTop="26dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b50"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b42"
+        android:layout_alignTop="@+id/b42"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b51"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b43"
+        android:layout_alignTop="@+id/b43"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b52"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b44"
+        android:layout_alignTop="@+id/b44"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b53"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b45"
+        android:layout_alignTop="@+id/b45"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b54"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b46"
+        android:layout_alignTop="@+id/b46"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b55"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b47"
+        android:layout_alignTop="@+id/b47"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b56"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b48"
+        android:layout_alignTop="@+id/b48"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b57"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b49"
+        android:layout_below="@+id/b41"
+        android:layout_marginTop="26dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b58"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b50"
+        android:layout_alignTop="@+id/b50"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b59"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b51"
+        android:layout_alignTop="@+id/b51"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b60"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b52"
+        android:layout_alignTop="@+id/b52"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b61"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b53"
+        android:layout_alignTop="@+id/b53"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b62"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b54"
+        android:layout_alignTop="@+id/b54"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b63"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b55"
+        android:layout_alignTop="@+id/b55"
+        android:layout_marginTop="33dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/b64"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/b56"
+        android:layout_alignTop="@+id/b56"
+        android:layout_marginTop="33dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b57"
+        android:layout_below="@+id/b57"
+        android:layout_marginTop="80dp"
+
+        android:background="@drawable/button_shape"
+        android:text="PRINT"
+        android:textColor="#FFFF" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/button_shape"
+        android:text="Disconnect"
+        android:textColor="#FFFF" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_below="@+id/b62"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button_shape"
+        android:text="clear"
+        android:textColor="#FFFF" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:textColor="#FFFF"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="COLOR PICKER" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b60"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/b64"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="15dp"
+        android:max="255"
+        android:progress="40"
+        android:visibility="gone" />
+
+</RelativeLayout>
